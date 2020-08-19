@@ -7,9 +7,15 @@ class ChattyStudent < Student
   
   
   def raise_hand
+<<<<<<< HEAD
     10.times do 
       super
     end
+=======
+    super
+    10.times raise_hand
+    
+>>>>>>> fcf1077d85d0a827a1a78dd3ec68c4bbaa5f0f31
   end
   
   
